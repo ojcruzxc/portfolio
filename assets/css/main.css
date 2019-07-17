@@ -2844,9 +2844,19 @@ input, select, textarea {
 					margin: 3em 0 0 2.5em;
 				}
 				.tiles article > .image:before {
-				background-color: #2c2c2c !important;
+				background-color: #2c2c2c00 !important;
 			}
 
+			.tiles article > a .content {
+				color: #fff;
+				background: #585858 !important; 
+				style: justify-content !important;
+				margin-top: 70%;
+			
+				
+			}
+
+			
 
 		}
 
