@@ -2679,6 +2679,7 @@ input, select, textarea {
 				color: #ffffff;
 				text-align: center;
 				text-decoration: none;
+				font-weight:600 !important;
 				z-index: 3;
 			}
 
@@ -2783,6 +2784,10 @@ input, select, textarea {
 					margin: 1.25em 0 0 1.25em;
 				}
 
+				.tiles article > .image:before {
+				background-color: #2c2c2c;
+			}
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -2796,6 +2801,11 @@ input, select, textarea {
 					margin: 2.5em 0 0 2.5em;
 				}
 
+				.tiles article > .image:before {
+				background-color: #2c2c2c;
+			}
+
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2805,8 +2815,8 @@ input, select, textarea {
 			}
 
 				.tiles article {
-					width: calc(50% - 1.25em);
-					margin: 1.25em 0 0 1.25em;
+					width: calc(100% - 1.25em);
+					margin: 3em 0 0 2.5em;
 				}
 
 					.tiles article:hover > .image {
@@ -2815,6 +2825,11 @@ input, select, textarea {
 						-ms-transform: scale(1.0);
 						transform: scale(1.0);
 					}
+
+					.tiles article > .image:before {
+				background-color: #2c2c2c;
+			}
+
 
 		}
 
@@ -2826,8 +2841,12 @@ input, select, textarea {
 
 				.tiles article {
 					width: 100%;
-					margin: 1.25em 0 0 0;
+					margin: 3em 0 0 2.5em;
 				}
+				.tiles article > .image:before {
+				background-color: #2c2c2c !important;
+			}
+
 
 		}
 
