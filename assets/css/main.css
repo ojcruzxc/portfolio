@@ -2307,7 +2307,10 @@ button:disabled,
 }
 .tiles article.style6 > .image:before {
 	background-color: #58585800;
+
 }
+
+
 body:not(.is-touch) .tiles article:hover > .image {
 	-moz-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
@@ -2315,7 +2318,7 @@ body:not(.is-touch) .tiles article:hover > .image {
 	transform: scale(1.1);
 }
 body:not(.is-touch) .tiles article:hover > .image:before {
-	background-color: #80c5ef;
+	background-color: #16151a00;
 	opacity: 0.9;
 }
 body:not(.is-touch) .tiles article:hover > .image:after {
