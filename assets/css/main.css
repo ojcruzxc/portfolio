@@ -232,6 +232,7 @@ i {
 	font-style: italic;
 }
 p {
+	font-family: 'Roboto', sans-serif;
 	margin: 0 0 2em 0;
 }
 h1 {
